@@ -8,25 +8,24 @@ body{
 .circle{
 	position: relative;
 	border: 1px solid #0071BE;
-	width: 255.72px;
+	width: 18.72%;
 	height: 255.63px;
 	border-radius: 500px;
-	margin: 127px 0 0 176px	
+	margin: 127px 0 0 13.2%;	
 }
 .circle #circle-center{
 	position: absolute;
-	margin: 16px;
-	width: 223.06px;
+	margin: 6.256%;
+	width: 87.5%;
 	height: 223px;
 	background: #0071BE;
 	border-radius: 500px;
 }
 
 #name, #surname, #prof{
-	font-size: 55px;
-	min-width: 500px;
-	width: 500px;
-	margin-left: 55px;
+	font-size: 55px;	
+	width: 33.603%;
+	margin-left: 5.73%;
 	position: left;
 	text-align: center;		
 }
@@ -52,28 +51,30 @@ body{
 	margin-top: 3px;	
 }
 .profile{
-	margin: 83px 0 0 68px;
+	margin: 83px 0 0 4.978%;
 }
 .profile img, .profile p, .profile .line{	
 	display: inline-block;
 	vertical-align: middle;
-	margin: 0 17px 0 0;
+	margin: 0 1.2445% 0 0;
 }
 
 .profile img{
-	width: 82px;
-	height: 78px;
+	width: 6.5%;
+	height: 5.710%;
 }
 
 .profile p{
 	font-size: 45.33px;
 	margin-left: -10px;
-	margin-right: 3px;
+	margin-right: 18px;
+	font-weight: bold;
+	color: #0071BE;
 }
 
 .profile .line{
 	border: 3px solid #0071BE;
-	min-width: 180px;
+	width: 14%;
 	margin-left: 0px;
 }
 
@@ -82,7 +83,7 @@ body{
 }
 
 .text p{
-	width: 428px;
-	margin-left: 68px;
+	width: 31.8%;
+	margin-left: 4.978%;
 	/*border: 1px solid;*/
 }
