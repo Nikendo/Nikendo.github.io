@@ -8,10 +8,10 @@ body{
 .circle{
 	position: relative;
 	border: 1px solid #0071BE;
-	width: 18.72%;
+	width: 18.9%;
 	height: 255.63px;
 	border-radius: 500px;
-	margin: 96px 0 0 13.1%;	
+	margin: 96px 0 0 13%;	
 }
 .circle #circle-center{
 	position: absolute;
@@ -86,7 +86,7 @@ body{
 }
 
 .contact{
-	margin: 33px 0 0 4.978%;
+	margin: 17px 0 0 4.978%;
 }
 
 .contact img, .contact p, .contact #lineprof{
@@ -123,4 +123,148 @@ body{
 
 .contact table tr{
 	text-align: left;
+}
+
+
+.skills{
+	margin: -10px 0 0 4.978%;
+}
+
+.skills .img_skills, .skills #p_skills, .skills #lineskill{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.skills #p_skills{
+	font-size: 45.33px;
+	margin-left: 13px;
+	margin-right: 12px;
+	font-weight: bold;
+	color: #0071BE;
+}
+
+.skills #lineskill{
+	border: 3px solid #0071BE;
+	width: 16%;
+	margin-left: 6px;	
+}
+
+.skills .skill_param p{
+	margin: -9px 0 60px 0;
+	width: 35%;
+	text-align: center;
+	font-size: 27.66px;
+}
+
+.skills ul{
+	padding: 0;
+	margin: -49px 0 27px 50px;
+	/*border: 1px solid black;*/
+}
+
+.skills .s_creative li{
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	background-color: #0071BE;
+	border-radius: 500px;
+	width: 19px;
+	height: 19px;
+	margin-right: 7px;
+	margin-left: 0;
+}
+
+.skills .s_creative :nth-child(2){
+	margin: 0 7px 0 0px;
+}
+
+.skills .s_creative :nth-child(3){
+	margin: 0 8px 0 0px;
+}
+
+.skills .s_creative :nth-child(4){
+	margin: 0 7px 0 0px;
+}
+
+.skills .s_creative :nth-child(5){
+	margin: 0 10px 0 0px;
+}
+
+.skills .s_creative :nth-child(6){
+	margin: 0 8px 0 0px;
+}
+
+.skills .s_creative :nth-child(7){
+	margin: 0 8px 0 0;
+}
+
+.skills .s_creative :nth-child(8){
+	margin: 0 8px 0 0px;
+}
+
+.skills .s_creative :nth-child(10){
+	margin: 0 8px 0 0px;
+	background-color: #ffffff;
+}
+
+.skills .s_creative :nth-child(11){
+	margin: 0 7px 0 3px;
+	background-color: #ffffff;
+}
+
+.skills .s_creative :nth-child(12){
+	background-color: #ffffff;
+}
+
+.skills .s_teamwork li{
+	padding: 0;
+	margin: 0 0 0 0;
+	display: inline-block;
+	background-color: #0071BE;
+	border-radius: 500px;
+	width: 19px;
+	height: 19px;
+	margin-right: 7px;
+	margin-left: 0;
+}
+
+
+.skills .s_teamwork :nth-child(2){
+	margin: 0 7px 0 0px;
+}
+
+.skills .s_teamwork :nth-child(3){
+	margin: 0 8px 0 0px;
+}
+
+.skills .s_teamwork :nth-child(4){
+	margin: 0 7px 0 0px;
+}
+
+.skills .s_teamwork :nth-child(5){
+	margin: 0 10px 0 0px;
+}
+
+.skills .s_teamwork :nth-child(6){
+	margin: 0 8px 0 0px;
+}
+
+.skills .s_teamwork :nth-child(7){
+	margin: 0 8px 0 0;
+}
+
+.skills .s_teamwork :nth-child(8){
+	margin: 0 8px 0 0px;
+}
+
+.skills .s_teamwork :nth-child(10){
+	margin: 0 8px 0 0px;
+}
+
+.skills .s_teamwork :nth-child(11){
+	margin: 0 7px 0 3px;
+}
+
+.skills .s_teamwork :nth-child(12){
+	background-color: #ffffff;
 }
