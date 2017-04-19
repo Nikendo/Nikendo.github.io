@@ -86,7 +86,7 @@ body{
 }
 
 .contact{
-	margin: 17px 0 0 4.978%;
+	margin: 33px 0 0 4.978%;
 }
 
 .contact img, .contact p, .contact #lineprof{
@@ -135,9 +135,15 @@ body{
 	vertical-align: middle;
 }
 
+.skills .img_skills{
+	height: 78px;
+	width: 79px;
+	margin-top: 6px;	
+}
+
 .skills #p_skills{
 	font-size: 45.33px;
-	margin-left: 13px;
+	margin-left: 8px;
 	margin-right: 12px;
 	font-weight: bold;
 	color: #0071BE;
@@ -146,25 +152,27 @@ body{
 .skills #lineskill{
 	border: 3px solid #0071BE;
 	width: 16%;
-	margin-left: 6px;	
+	margin-left: 10px;	
 }
 
 .skills .skill_param p{
-	margin: -9px 0 60px 0;
+	/*margin: -9px 0 60px 0;*/
 	width: 35%;
 	text-align: center;
 	font-size: 27.66px;
 }
 
+.skills .creative{
+	margin-top: -5px; 
+	margin-bottom: 0px;
+}
 .skills ul{
 	padding: 0;
-	margin: -49px 0 27px 50px;
+	margin: 10px 0 0px 50px;
 	/*border: 1px solid black;*/
 }
 
-.skills .s_creative li{
-	padding: 0;
-	margin: 0;
+.skills li{
 	display: inline-block;
 	background-color: #0071BE;
 	border-radius: 500px;
@@ -216,9 +224,14 @@ body{
 	background-color: #ffffff;
 }
 
+.skills .d_teamwork{
+	margin-top: -9px;
+}
+
+.skills .s_teamwork{
+	margin-top: -18px;
+}
 .skills .s_teamwork li{
-	padding: 0;
-	margin: 0 0 0 0;
 	display: inline-block;
 	background-color: #0071BE;
 	border-radius: 500px;
@@ -242,7 +255,7 @@ body{
 }
 
 .skills .s_teamwork :nth-child(5){
-	margin: 0 10px 0 0px;
+	margin: 0 11px 0 0px;
 }
 
 .skills .s_teamwork :nth-child(6){
@@ -250,7 +263,7 @@ body{
 }
 
 .skills .s_teamwork :nth-child(7){
-	margin: 0 8px 0 0;
+	margin: 0 7px 0 0;
 }
 
 .skills .s_teamwork :nth-child(8){
@@ -258,7 +271,7 @@ body{
 }
 
 .skills .s_teamwork :nth-child(10){
-	margin: 0 8px 0 0px;
+	margin: 0 7px 0 0px;
 }
 
 .skills .s_teamwork :nth-child(11){
@@ -266,5 +279,109 @@ body{
 }
 
 .skills .s_teamwork :nth-child(12){
+	background-color: #ffffff;
+}
+
+.skills .d_innovate{
+	margin-top: -9px;
+}
+
+.skills .s_innovate{
+	margin-top: -18px;
+}
+
+.skills .s_innovate :nth-child(2){
+	margin: 0 7px 0 0px;
+}
+
+.skills .s_innovate :nth-child(3){
+	margin: 0 8px 0 0px;
+}
+
+.skills .s_innovate :nth-child(4){
+	margin: 0 7px 0 0px;
+}
+
+.skills .s_innovate :nth-child(5){
+	margin: 0 11px 0 0px;
+}
+
+.skills .s_innovate :nth-child(6){
+	margin: 0 8px 0 0px;
+}
+
+.skills .s_innovate :nth-child(7){
+	margin: 0 7px 0 0;
+	background-color: #ffffff;
+}
+
+.skills .s_innovate :nth-child(8){
+	margin: 0 8px 0 0px;
+	background-color: #ffffff;
+}
+
+.skills .s_innovate :nth-child(9)
+{
+	background-color: #ffffff;
+}
+.skills .s_innovate :nth-child(10){
+	margin: 0 7px 0 0px;
+	background-color: #ffffff;
+}
+
+.skills .s_innovate :nth-child(11){
+	margin: 0 7px 0 3px;
+	background-color: #ffffff;
+}
+
+.skills .s_innovate :nth-child(12){
+	background-color: #ffffff;
+}
+
+.skills .d_communication{
+	margin-top: -9px;
+}
+
+.skills .s_communication{
+	margin-top: -20px;
+}
+
+.skills .s_communication :nth-child(2){
+	margin: 0 7px 0 0px;
+}
+
+.skills .s_communication :nth-child(3){
+	margin: 0 8px 0 0px;
+}
+
+.skills .s_communication :nth-child(4){
+	margin: 0 7px 0 0px;
+}
+
+.skills .s_communication :nth-child(5){
+	margin: 0 11px 0 0px;
+}
+
+.skills .s_communication :nth-child(6){
+	margin: 0 8px 0 0px;
+}
+
+.skills .s_communication :nth-child(7){
+	margin: 0 7px 0 0;
+}
+
+.skills .s_communication :nth-child(8){
+	margin: 0 8px 0 0px;
+}
+
+.skills .s_communication :nth-child(10){
+	margin: 0 7px 0 0px;
+}
+
+.skills .s_communication :nth-child(11){
+	margin: 0 7px 0 3px;
+}
+
+.skills .s_communication :nth-child(12){
 	background-color: #ffffff;
 }
